@@ -1,6 +1,6 @@
 
-class ExtensionAnnotation {
-  const ExtensionAnnotation();
+class GenerateModelMapper {
+  const GenerateModelMapper();
 }
 
-const generateModelMapper = ExtensionAnnotation();
+const generateModelMapper = GenerateModelMapper();
