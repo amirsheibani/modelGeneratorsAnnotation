@@ -1,6 +1,8 @@
 
-class GenerateModelMapper {
-  const GenerateModelMapper();
+class GenerateMapper {
+  final bool? entity;
+  final bool? model;
+  const GenerateMapper({this.entity,this.model});
 }
 
-const generateModelMapper = GenerateModelMapper();
+const generateMapper = GenerateMapper();

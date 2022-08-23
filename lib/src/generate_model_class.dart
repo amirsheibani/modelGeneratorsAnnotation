@@ -1,6 +1,7 @@
 
 class GenerateModelClass {
-  const GenerateModelClass();
+  final String? className;
+  const GenerateModelClass({this.className});
 }
 
 class GenerateModelClassWithJson {
